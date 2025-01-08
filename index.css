@@ -41,6 +41,24 @@
   border: 1px solid black;
 }
 
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.search-box {
+  padding: 5px;
+}
+
+.search-btn {
+  padding: 5px;
+}
+
 .filter-btn {
   padding: 10px;
   margin: 10px;
@@ -57,9 +75,15 @@
   flex-wrap: wrap;
 }
 
+.shimmer-btn {
+  padding: 10px;
+  margin: 10px;
+}
+
 .shimmer-card {
-  margin: 20px;
+  padding: 5px;
   width: 230px;
+  margin: 5px;
   height: 400px;
   background-color: #f0f0f0;
 }
