@@ -77,6 +77,7 @@ const Body = () => {
             const filteredList = listOfRestaurants.filter(
               (res) => res.card.card.info.avgRating > 4.2
             );
+            console.log(filteredList);
 
             setListOfRestaurants(filteredList);
           }}
